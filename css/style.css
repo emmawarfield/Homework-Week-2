@@ -1,0 +1,77 @@
+/* Stylesheet to be used with homework from Week 1 */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+header{
+    background-color: rgb(222, 222, 222);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+header img{
+    width: 10%;
+    position: relative;
+   
+}
+
+nav{
+    /* background-color: rgb(107, 155, 196); */
+    display: inline-block;
+    justify-content: space-around;
+    width: 80%;
+    font-size: 24px;
+}
+div{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    justify-content: space-evenly;
+}
+
+main{
+    background-color: rgb(255, 235, 59);
+    font-size: 200%;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-evenly;
+
+}
+
+.grid-item img{
+    width: 100%;
+}
+footer{
+    background-color: rgb(172, 172, 172);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+/* li{
+    display: inline-block;
+    width: 30%;
+    font-size: 20px;
+} */
+
+h1{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(13, 84, 190);
+}
+
+p{
+    font_size: 16px;
+    line-height: 125%;
+}
